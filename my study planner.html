@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">
+<title>Study Planner</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+font-family: Arial;
+sans-serif;
+background: #f4f6fb;
+color: #263238;
+}
+header {
+background: #6c63ff;
+color: white;
+padding: 25px;
+text-align: center;
+}
+.welcome {
+margin-bottom: 25px;
+}
+.cards {
+display: grid;
+grid-template-columns:
+repeat(3, 1fr);
+gap: 20px;
+}
+.card {
+background: white;
+padding: 25px;
+border-radius: 15px;
+box-shadow: 0 4px 12px
+#00000010;
+}
+.card h3 {
+color: #6c63ff;
+margin-bottom: 12px;
+}
+.card p{
+line-height: 1.6;
+}
+.tasks {
+background: white;
+margin-top: 25px;
+padding: 25px;
+border-radius: 15px;
+}
+.tasks h2 {
+margin-bottom: 15px;
+}
+.tasks ul {
+padding-left: 20px;
+line-height: 2;
+}
+footer {
+text-align: center;
+padding: 20px;
+color: #777;
+}
+@media (max-width: 650px) {
+.cards {
+grid-template-column:
+1 fr;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>My Study Planner</h1>
+<p>Plan your day. Achieve your goals.</p>
+</header>
+<div class="container">
+<div class="welcome">
+<h2>Welcome, Student!</h2>
+<p>Stay organized and make every day productive.</p>
+</div>
+<div class="cards">
+<div class="card">
+<h3>📕Subjects</h3>
+<p>HTML</p>
+<p>CSS</p>
+<p>JavaScript</p>
+</div>
+<div class="card">
+<h3>🎯Target | Daily Goal</h3>
+<p>Learn something new every day.</p>
+</div>
+<div class="card">
+<h3>⏰Study Time</h3>
+<p>Morning: 2Hours</p>
+<p>Evening: 1Hour</p>
+</div>
+</div>
+<div class="tasks">
+<h2>Today's Tasks</h2>
+<ul>
+<li>Practice HTML</li>
+<li>Learn CSS
+properties</li>
+<li>Create a new web
+design</li>
+<li>Revise previous
+lessons</li>
+</ul>
+</div>
+</div>
+<footer>
+Designed with HTMLand CSS
+</footer>
+</body>
+</html>
+
+
